@@ -24,7 +24,7 @@ class varnish {
     enable => true,
     hasrestart => true,
     hasstatus  => true,
-    subscribe  => File['/etc/varnish/default.vcl'],
+#    subscribe  => File['/etc/varnish/default.vcl'],
     require => Package['varnish'],
   }
 }
