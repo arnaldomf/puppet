@@ -1,6 +1,6 @@
 acl purge {
   "localhost";
-  "10.0.0.0/16";
+  "10.0.0.0"/16;
 }
 
 backend default {
